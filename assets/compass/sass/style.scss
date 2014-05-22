@@ -12,6 +12,7 @@ $black-color: #35393c;
 $contrast-color: #ee0f6c;
 $background-color: #f1f5f7;
 $border-color: #ececec;
+$border-user-color: #c4cfd4;
 $default-transition-property : all;
 $default-transition-duration : 0.4s;
 $default-transition-function : false;
@@ -209,6 +210,7 @@ header{
 
 .filters{
   min-height: 64px;
+  overflow: visible;
 
 
   h2{
@@ -237,6 +239,176 @@ header{
       margin-left: 10px;
     }
   }
+
+  .right_elements{
+    position: relative;
+    float: right;
+    min-height: 64px;
+    overflow: visible;
+
+    .social{
+      position: relative;
+      float: left;
+      height: 36px;
+      border: 1px solid $border-color;
+      @include border-radius(3px);
+      overflow: hidden;
+
+      li{
+        display: block;
+        position: relative;
+        float: left;
+        height: 36px;
+        line-height: 36px;
+        font-size: $font-size * 2;
+        border-right: 1px solid $border-color;
+
+        a{
+          display: block;
+          position: relative;
+          height: 36px;
+          padding: 0 20px;
+          background: $white-color;
+          line-height: 36px;
+          border: none;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+           span.fa-facebook{
+              color: #4b65a3;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+            }
+            span.fa-twitter{
+              color: #31aae1;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+            }
+            span.fa-google-plus{
+              color: #eb2c27;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+            }
+
+
+        }
+
+        a:hover{
+          background: $gray-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+
+            span{
+              color: $white-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+            }
+
+        }
+
+       
+
+      }
+
+      li:last-child{
+        border: none;
+      }
+    }
+
+    .wrapper{
+      position: relative;
+      float: left;
+      height: 36px;
+      width: 210px;
+      margin-right: 10px;
+      border: 1px solid $border-color;
+      background: $white-color;
+      @include border-radius(3px);
+
+      .fa{
+        display: block;
+        position: relative;
+        float: left;
+        width: 30px;
+        height: 36px;
+        text-align: center;
+        line-height: 36px;
+        font-size: $font-size * 1.6;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        cursor: pointer;
+      }
+
+      .fa:hover{
+        color: $strong-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+      ul{
+        position: relative;
+        float: left;
+        height: 36px;
+        width: 180px;
+        margin-right: 0px;
+        overflow: hidden;
+        border-bottom: 1px solid $border-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+        li{
+          display: block;
+          position: relative;
+          width: 180px;
+          height: 36px;
+          line-height: 36px;
+          font-size: $font-size * 1.4;
+        border-bottom: 1px solid $border-color;
+
+          p{
+            margin: 0;
+            padding: 0;
+            width: 96%;
+            padding: 0 2%;
+            background: $white-color;
+            height: 36px;
+            margin: 0 auto;
+            text-indent: 7px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        cursor: pointer;
+          }
+
+          p:hover{
+            background: $gray-color;
+            color: $white-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+          }
+
+
+        }
+
+
+          li:last-child{
+            border-bottom: none;
+
+          }
+
+      }
+
+      ul.activo{
+        height: 252px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+    }
+
+  }
+
+
 }
 
 aside{

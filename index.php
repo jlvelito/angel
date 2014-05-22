@@ -41,6 +41,25 @@
 		</nav>
 		<section class="central filters">
 			<h2>Albert Heijn <span></span></h2>
+			<div class="right_elements">
+				<div class="wrapper">
+					<ul class="select">
+						<li><p id="princ">Mjin Account</p></li>
+						<li><p>Opción 1</p></li>
+						<li><p>Opción 2</p></li>
+						<li><p>Opción 3</p></li>
+						<li><p>Opción 4</p></li>
+						<li><p>Opción 5</p></li>
+						<li><p>Opción 6</p></li>
+					</ul>
+					<span class="fa fa-caret-down" id="launcher1"></span>
+				</div>
+				<ul class="social">
+					<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+					<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+					<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+				</ul>
+			</div>
 		</section>
 		<div class="central">
 			<section class="contenidos">
