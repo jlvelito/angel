@@ -175,7 +175,7 @@ header div.inputs input[type="text"]:-ms-input-placeholder {
 .breadcrumb {
   position: relative;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: #4d7a98;
   min-height: 46px;
   overflow: hidden;
