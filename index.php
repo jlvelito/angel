@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<header>
-			<div class="central">
+			<nav class="central">
 				<ul>
 					<li><a href="#"><span class="fa fa-home"></span> home</a></li>
 					<li><a href="#"><span class="fa fa-navicon"></span> meer</a></li>
@@ -28,7 +28,27 @@
 					<input type="text" class="fa" placeholder="&#xf00b; Winkel of categorie" />
 					<input type="submit" class="fa" value="&#xf002;" />
 				</div>
-			</div>
+			</nav>
 		</header>
+		<nav class="central">
+			<ul class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li>></li>
+				<li><a href="#">Supermarkten</a></li>
+				<li>></li>
+				<li><a href="#">Albert Heijn</a></li>
+			</ul>
+		</nav>
+		<section class="central filters">
+			<h2>Albert Heijn <span></span></h2>
+		</section>
+		<div class="central">
+			<section class="contenidos">
+				
+			</section>
+			<aside>
+				
+			</aside>
+		</div>
 	</body>
 </html>
