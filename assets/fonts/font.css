@@ -22,29 +22,6 @@
   font-weight:  700;
 }
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('HelveticaNeueCondensedBlack.eot'); /* IE9 Compat Modes */
-  src: url('HelveticaNeueCondensedBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('HelveticaNeueCondensedBlack.woff') format('woff'), /* Modern Browsers */
-       url('HelveticaNeueCondensedBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('HelveticaNeueCondensedBlack.svg#e99b50b01003ace11ec006fe71e886d8') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  400;
-}
-
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('HelveticaNeueCondensedBold.eot'); /* IE9 Compat Modes */
-  src: url('HelveticaNeueCondensedBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('HelveticaNeueCondensedBold.woff') format('woff'), /* Modern Browsers */
-       url('HelveticaNeueCondensedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('HelveticaNeueCondensedBold.svg#453667434e93dceb51173a1d61030e95') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  700;
-}
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -58,27 +35,5 @@
   font-weight:  200;
 }
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('HelveticaNeueMedium.eot'); /* IE9 Compat Modes */
-  src: url('HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('HelveticaNeueMedium.woff') format('woff'), /* Modern Browsers */
-       url('HelveticaNeueMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('HelveticaNeueMedium.svg#d7af0fd9278f330eed98b60dddea7bd6') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  400;
-}
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('HelveticaNeueUltraLight.eot'); /* IE9 Compat Modes */
-  src: url('HelveticaNeueUltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('HelveticaNeueUltraLight.woff') format('woff'), /* Modern Browsers */
-       url('HelveticaNeueUltraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('HelveticaNeueUltraLight.svg#9453ea8da727d260bcdbfa605bdbb5d2') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  200;
-}
 

@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/nomalize.css" />
 		<link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	    <!--[if lt IE 9]>
 	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->
@@ -20,8 +21,8 @@
 		<script type="text/javascript" src="assets/js/funciones.js"></script>	
 	</head>
 	<body>
-		<div id="container">
+		<header>
 			
-		</div>
+		</header>
 	</body>
 </html>
