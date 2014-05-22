@@ -17,7 +17,7 @@
 		<script type="text/javascript" src="assets/js/funciones.js"></script>	
 	</head>
 	<body>
-		<header>
+		<header class="inicial">
 			<nav class="central">
 				<ul>
 					<li><a href="#"><span class="fa fa-home"></span> home</a></li>
@@ -41,10 +41,10 @@
 		</nav>
 		<section class="central filters">
 			<h2>Albert Heijn <span></span></h2>
-			<div class="right_elements">
+			<nav class="right_elements">
 				<div class="wrapper">
 					<ul class="select">
-						<li><p id="princ">Mjin Account</p></li>
+						<li><p class="princ">Mjin Account</p></li>
 						<li><p>Opción 1</p></li>
 						<li><p>Opción 2</p></li>
 						<li><p>Opción 3</p></li>
@@ -52,22 +52,58 @@
 						<li><p>Opción 5</p></li>
 						<li><p>Opción 6</p></li>
 					</ul>
-					<span class="fa fa-caret-down" id="launcher1"></span>
+					<span class="fa fa-caret-down launcher1"></span>
 				</div>
 				<ul class="social">
 					<li><a href="#"><span class="fa fa-facebook"></span></a></li>
 					<li><a href="#"><span class="fa fa-twitter"></span></a></li>
 					<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
 				</ul>
-			</div>
+			</nav>
 		</section>
 		<div class="central">
 			<section class="contenidos">
-				
+				<header>
+					<ul class="tabs">
+						<li class="activo"><span class="fa fa-map-marker" id="tab1"></span> Op de kaart</li>
+						<li><span class="fa fa-book" id="tab2"></span> Op alfabet</li>
+						<li><span class="fa fa-money" id="tab3"></span> Koopzondag</li>
+						<li><span class="fa fa-moon-o" id="tab4"></span> Koopavond</li>
+						<li>
+							<div class="wrapper">
+								<ul class="select">
+									<li><p class="princ">Amsterdam</p></li>
+									<li><p>Milan</p></li>
+									<li><p>Praga</p></li>
+									<li><p>Dublín</p></li>
+									<li><p>Roma</p></li>
+									<li><p>Londres</p></li>
+									<li><p>Liverpool</p></li>
+								</ul>
+								<span class="fa fa-caret-down launcher1" ></span>
+							</div>
+						</li>
+					</ul>
+				</header>
 			</section>
-			<aside>
-				
-			</aside>
+			<section class="sidebar">
+				<article class="present">
+					<span class="fa fa-spotify logocent"></span>
+					<h4>Openingstijden Albert heijn</h4>
+					<p class="thin">Lorem Ipsum Dolor Sit Amet consectetuer adispicing Donec pellentesque.</p>
+					<p class="thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis justo eu molestie facilisis. Integer quis libero ante. </p>
+				</article>
+				<article>
+					<header><h3>Albert Heijn Links</h3></header>
+					<ul class="links">
+						<li><a href="#"><span class="fa fa-spotify"></span>Assortiment</a></li>
+						<li><a href="#"><span class="fa fa-spotify"></span>Bostchappen Bestellen</a></li>
+						<li><a href="#"><span class="fa fa-spotify"></span>Allerhande</a></li>
+						<li><a href="#"><span class="fa fa-spotify"></span>Bonus Aanbiedingen</a></li>
+						<li><a href="#"><span class="fa fa-spotify"></span>Bonukaart Aanvragen</a></li>
+					</ul>
+				</article>
+			</section>
 		</div>
 	</body>
 </html>

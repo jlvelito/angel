@@ -61,10 +61,11 @@ ul{
   margin: 0 auto;
   float: none;
   clear: both;
+  z-index: 200;
 }
 
 
-header{
+header.inicial{
 
   position: relative;
   width: 100%;
@@ -114,7 +115,7 @@ header{
 
   }
 
-  div.inputs{
+  .inputs{
     position: relative;
     float: right;
 
@@ -211,7 +212,7 @@ header{
 .filters{
   min-height: 64px;
   overflow: visible;
-
+  z-index: 400;
 
   h2{
     height: 46px;
@@ -411,20 +412,297 @@ header{
 
 }
 
-aside{
+.sidebar{
+  padding-top: 25px;
   position: relative;
   width: 302px;
   min-height: 30px;
   overflow: hidden;
   float: left;
+
+  article{
+    position: relative;
+    width: 300px;
+    min-height: 40px;
+    border: 1px solid $border-color;
+    background: $white-color;
+    margin-bottom: 17px;
+
+    header{
+    position: relative;
+    width: 100%;
+    background: #f8fbfc;
+    border-bottom: 1px solid $border-color;
+    min-height: 44px;
+    margin: 0;
+    padding: 0;
+
+    h3{
+      text-indent: 20px;
+      line-height: 44px;
+      padding: 0;
+      font-size: $font-size * 1.6;
+      font-weight: 700;
+      margin: 0;
+    }
+
+  }
+
+  ul.links{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 24px 0;
+
+    li{
+      display: block;
+      position: relative;
+      min-height: 24px;
+      line-height: 24px;
+      margin-bottom: 3px;
+
+      a{
+        display: block;
+        position: relative;
+        width: 100%;
+        min-height: 24px;
+        line-height: 24px;
+        font-size: $font-size * 1.4;
+        text-decoration: none;
+        color: $black-color;
+        font-weight: 700;
+        padding: 3px 0;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+        span{
+          display: block;
+          float: left;
+        color: $strong-color;
+        font-size: $font-size * 2;
+        line-height: 24px;
+        padding: 0px 12px 0px 20px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        }
+
+      }
+
+      a:hover{
+        color: $gray-color;
+        background: #f8fbfc;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      
+        span{
+          color: $gray-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        }
+      }
+
+    }
+
+  }
+
+
+  }
+
+  .present{
+    text-align: center;
+    padding-bottom: 15px;
+
+    .logocent{
+      display: block;
+      position: relative;
+      width: 100%;
+      font-size: $font-size * 6.5;
+      line-height: 65px;
+      color: $strong-color;
+      padding-top: 15px;
+    }
+
+    h4{
+      font-size: $font-size * 1.4;
+      font-weight: 700;
+    }
+
+    .thin{
+      font-weight: 200;
+      width: 92%;
+      margin: 0 auto;
+      font-size: $font-size * 1.2;
+      color: $gray-color;
+      margin-bottom: 7px;
+    }
+
+  }
+
 }
 
 .contenidos{
+  margin-top: 25px;
   position: relative;
   width: 731px;
   float: left;
-  margin-right: 17px;
-  min-height: 30px;
+  margin-right: 15px;
+  min-height: 130px;
+    border: 1px solid #dfecf2;
+    background: $white-color;
+
+header{
+  position: relative;
+height: 55px;
+width: 100%;
+
+  ul.tabs{
+    position: relative;
+    width: 100%;
+    height: 55px;
+
+    li{
+      display: block;
+      position: relative;
+      float: left;
+      width: 124px;
+      height: 55px;
+      line-height: 55px;
+      text-align: center;
+      border-right: 1px solid #cce1eb;
+      background: #dfecf2; 
+      color: #4d7a98;
+      font-size: $font-size * 1.4;
+      cursor: pointer;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+      .wrapper{
+      position: relative;
+      float: none;
+      height: 36px;
+      width: 210px;
+      
+        margin: 10px auto;
+      border: 1px solid $border-color;
+      background: $white-color;
+      @include border-radius(3px);
+
+      .fa{
+        display: block;
+        position: relative;
+        float: left;
+        width: 30px;
+        height: 36px;
+        text-align: center;
+        line-height: 36px;
+        font-size: $font-size * 1.6;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        cursor: pointer;
+      }
+
+      .fa:hover{
+        color: $strong-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+      ul{
+        position: relative;
+        float: left;
+        height: 36px;
+        width: 180px;
+        margin-right: 0px;
+        overflow: hidden;
+        border-bottom: 1px solid $border-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+        li{
+          display: block;
+          position: relative;
+          width: 180px;
+          height: 36px;
+          line-height: 36px;
+          font-size: $font-size * 1.4;
+        border-bottom: 1px solid $border-color;
+
+          p{
+            margin: 0;
+            padding: 0;
+            width: 96%;
+            padding: 0 2%;
+            background: $white-color;
+            text-align: left;
+            height: 36px;
+            margin: 0 auto;
+            text-indent: 7px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        cursor: pointer;
+          }
+
+          p:hover{
+            background: $gray-color;
+            color: $white-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+          }
+
+
+        }
+
+
+          li:last-child{
+            border-bottom: none;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+          }
+
+      }
+
+      ul.activo{
+        height: 252px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+    }
+
+    }
+
+    li:last-child{
+      width: 231px;
+      border:none;
+    }
+
+    li:hover{
+      background: #e9f0f3;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+    }
+
+    li.activo{
+      background: $white-color;
+      color: $contrast-color;
+      border-right: 1px solid $white-color; 
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+    }
+
+    li:last-child.activo{
+      border: none;
+    }
+
+  }
+
+}
+  
+
+
+
+
 }
 
 
