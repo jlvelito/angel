@@ -1,7 +1,165 @@
-/* line 39, ../compass/sass/style.scss */
+/* line 40, ../compass/sass/style.scss */
 html, body {
   width: 100%;
   height: 100%;
   background: #f1f5f7;
   font-family: "Helvetica Neue";
+  min-width: 1002px;
+  font-size: 10px;
+}
+
+/* line 49, ../compass/sass/style.scss */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 55, ../compass/sass/style.scss */
+.central {
+  position: relative;
+  width: 1050px;
+  min-height: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 64, ../compass/sass/style.scss */
+header {
+  position: relative;
+  width: 100%;
+  min-height: 75px;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid #ececec;
+}
+/* line 73, ../compass/sass/style.scss */
+header ul {
+  position: relative;
+  float: left;
+  min-height: 24px;
+  margin-top: 25px;
+}
+/* line 79, ../compass/sass/style.scss */
+header ul li {
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 13px;
+  padding-right: 13px;
+  line-height: 24px;
+  border-right: 1px solid #ececec;
+}
+/* line 91, ../compass/sass/style.scss */
+header ul li a {
+  text-decoration: none;
+  color: #4d7a98;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 97, ../compass/sass/style.scss */
+header ul li a .fa {
+  font-size: 18px;
+  margin-right: 2px;
+  line-height: 24px;
+}
+/* line 104, ../compass/sass/style.scss */
+header ul li a:hover {
+  color: #35393c;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 114, ../compass/sass/style.scss */
+header div.inputs {
+  position: relative;
+  float: right;
+}
+/* line 118, ../compass/sass/style.scss */
+header div.inputs input[type="submit"] {
+  display: inline-block;
+  background: #ee0f6c;
+  color: white;
+  font-size: 24px;
+  border: none;
+  height: 38px;
+  top: 0px;
+  vertical-align: middle;
+  padding: 0 12px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 1px 1px 0px #ad0a4e;
+  border-bottom: 2px solid #b0074d;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 135, ../compass/sass/style.scss */
+header div.inputs input[type="submit"]:hover {
+  background: #1ca8ed;
+  border-bottom: 2px solid #0b79af;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 142, ../compass/sass/style.scss */
+header div.inputs input[type="text"] {
+  padding: 0;
+  margin: 0;
+  border: 2px solid #e3ebef;
+  color: #28384b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  height: 34px;
+  line-height: 34px;
+  margin-top: 18px;
+  text-indent: 8px;
+  font-size: 14px;
+}
+/* line 34, ../compass/sass/style.scss */
+header div.inputs input[type="text"]::-webkit-input-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
+}
+/* line 35, ../compass/sass/style.scss */
+header div.inputs input[type="text"]:-moz-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
+}
+/* line 36, ../compass/sass/style.scss */
+header div.inputs input[type="text"]::-moz-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
+}
+/* line 37, ../compass/sass/style.scss */
+header div.inputs input[type="text"]:-ms-input-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
 }

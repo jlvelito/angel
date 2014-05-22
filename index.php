@@ -4,8 +4,8 @@
 	    <meta charset="utf-8">
 	    <title>Prueba App</title>
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="assets/css/nomalize.css" />
-		<link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="assets/fonts/font.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	    <!--[if lt IE 9]>
@@ -13,16 +13,22 @@
 	    <![endif]-->
 		<script type="text/javascript" src="assets/js/jquery-1.8.2.js"></script>	
 		<!-- Add fancyBox -->
-		<link rel="stylesheet" href="assets/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		<script type="text/javascript" src="assets/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-		<!-- Optionally add helpers - button, thumbnail and/or media -->
-		<link rel="stylesheet" href="assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-		<script type="text/javascript" src="assets/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+		
 		<script type="text/javascript" src="assets/js/funciones.js"></script>	
 	</head>
 	<body>
 		<header>
-			
+			<div class="central">
+				<ul>
+					<li><a href="#"><span class="fa fa-home"></span> home</a></li>
+					<li><a href="#"><span class="fa fa-navicon"></span> meer</a></li>
+				</ul>
+				<div class="inputs">
+					<input type="text" class="fa" placeholder="&#xf041; Plaats of postcode" />
+					<input type="text" class="fa" placeholder="&#xf00b; Winkel of categorie" />
+					<input type="submit" class="fa" value="&#xf002;" />
+				</div>
+			</div>
 		</header>
 	</body>
 </html>
