@@ -1483,3 +1483,53 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
     width: 250px;
   }
 }
+@media (max-width: 800px) {
+  /* line 1224, ../compass/sass/style.scss */
+  html, body {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+  }
+
+  /* line 1230, ../compass/sass/style.scss */
+  .central {
+    width: 768px;
+  }
+
+  /* line 1234, ../compass/sass/style.scss */
+  .sidebar {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  /* line 1238, ../compass/sass/style.scss */
+  .sidebar article {
+    width: 31%;
+    margin: 10px 1%;
+    float: left;
+  }
+  /* line 1244, ../compass/sass/style.scss */
+  .sidebar .publicidad {
+    height: 120px;
+    line-height: 120px;
+  }
+
+  /* line 1250, ../compass/sass/style.scss */
+  .left_stuff {
+    width: 768px;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+  }
+  /* line 1256, ../compass/sass/style.scss */
+  .left_stuff .contenidos {
+    width: 766px;
+  }
+  /* line 1262, ../compass/sass/style.scss */
+  .left_stuff .contenidos header ul.tabs li {
+    width: 133px;
+  }
+  /* line 1265, ../compass/sass/style.scss */
+  .left_stuff .contenidos header ul.tabs li:last-child {
+    width: 230px;
+  }
+}

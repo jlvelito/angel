@@ -1219,6 +1219,60 @@ z-index: 600;
 
 }
 
+@media (max-width: 800px) {
+
+  html,body{
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+  }
+
+  .central{
+    width: 768px;
+  }
+
+  .sidebar{
+    width: 100%;
+    padding-bottom: 20px;
+
+    article{
+      width:31%;
+      margin: 10px 1%;
+      float: left;
+    }
+
+    .publicidad{
+      height: 120px;
+      line-height: 120px;
+    }
+  }
+
+  .left_stuff{
+    width: 768px;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+
+    .contenidos{
+      width: 766px;
+    
+      header{
+
+        ul.tabs{
+          li{
+            width: 133px;
+          }
+          li:last-child{
+            width: 230px;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
 
 
 
