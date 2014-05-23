@@ -1244,6 +1244,7 @@ z-index: 600;
     .publicidad{
       height: 120px;
       line-height: 120px;
+      margin: 0 auto;
     }
   }
 
@@ -1274,6 +1275,61 @@ z-index: 600;
 }
 
 
+
+@media (max-width: 640px) {
+
+  html,body{
+    width: 100%;
+    min-width: 360px;
+  }
+
+  header.inicial{
+
+    padding-bottom: 10px;
+
+    ul{
+      float: none;
+      width: 100%;
+      margin: 10px auto;
+      text-align: center;
+
+      li{
+        display: inline-block;
+        float: none;
+      }
+    }
+
+    .inputs{
+      text-align: center;
+      float: none;
+      width: 100%;
+
+      input[type="text"], input[type="submit"]{
+        display: inline-block;
+        float: none;
+      }
+
+      input[type="submit"]{
+        margin-top: -5px;
+      }
+
+    }
+
+  }
+
+  .central{
+    width: 640px;
+  }
+
+  .sidebar{
+    width: 100%;
+
+    article{
+      width:90%;
+    }
+  }
+
+}
 
 
 

@@ -1511,25 +1511,79 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   .sidebar .publicidad {
     height: 120px;
     line-height: 120px;
+    margin: 0 auto;
   }
 
-  /* line 1250, ../compass/sass/style.scss */
+  /* line 1251, ../compass/sass/style.scss */
   .left_stuff {
     width: 768px;
     margin: 0 auto;
     float: none;
     clear: both;
   }
-  /* line 1256, ../compass/sass/style.scss */
+  /* line 1257, ../compass/sass/style.scss */
   .left_stuff .contenidos {
     width: 766px;
   }
-  /* line 1262, ../compass/sass/style.scss */
+  /* line 1263, ../compass/sass/style.scss */
   .left_stuff .contenidos header ul.tabs li {
     width: 133px;
   }
-  /* line 1265, ../compass/sass/style.scss */
+  /* line 1266, ../compass/sass/style.scss */
   .left_stuff .contenidos header ul.tabs li:last-child {
     width: 230px;
+  }
+}
+@media (max-width: 640px) {
+  /* line 1281, ../compass/sass/style.scss */
+  html, body {
+    width: 100%;
+    min-width: 360px;
+  }
+
+  /* line 1286, ../compass/sass/style.scss */
+  header.inicial {
+    padding-bottom: 10px;
+  }
+  /* line 1290, ../compass/sass/style.scss */
+  header.inicial ul {
+    float: none;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  /* line 1296, ../compass/sass/style.scss */
+  header.inicial ul li {
+    display: inline-block;
+    float: none;
+  }
+  /* line 1302, ../compass/sass/style.scss */
+  header.inicial .inputs {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  /* line 1307, ../compass/sass/style.scss */
+  header.inicial .inputs input[type="text"], header.inicial .inputs input[type="submit"] {
+    display: inline-block;
+    float: none;
+  }
+  /* line 1312, ../compass/sass/style.scss */
+  header.inicial .inputs input[type="submit"] {
+    margin-top: -5px;
+  }
+
+  /* line 1320, ../compass/sass/style.scss */
+  .central {
+    width: 640px;
+  }
+
+  /* line 1324, ../compass/sass/style.scss */
+  .sidebar {
+    width: 100%;
+  }
+  /* line 1327, ../compass/sass/style.scss */
+  .sidebar article {
+    width: 90%;
   }
 }
