@@ -64,6 +64,10 @@ ul{
   z-index: 200;
 }
 
+#audiac{
+  display: none;
+}
+
 
 header.inicial{
 
@@ -508,6 +512,62 @@ header.inicial{
 
   }
 
+  .fold{
+    font-size: $font-size * 1.4;
+    overflow: hidden;
+
+    .folda{
+      display: block;
+      position: relative;
+      float: left;
+      width: 60px;
+      height: 80px;
+      line-height: 80px;
+      margin: 15px;
+      font-size: $font-size * 6;
+      color: $strong-color;
+    }
+
+    h4{
+      margin: 0;
+      padding: 15px 0 7px;
+      color: $strong-color;
+    }
+
+    p{
+      margin: 0;
+      color: $gray-color;
+    }
+
+    .to_list{
+        display: block;
+        position: relative;
+        float: left;
+        margin: 0;
+      border-radius: 3px;
+      border: 1px solid #c0d4dd;
+      background: $button-color;
+      height: 24px;
+      line-height: 24px;
+      font-size: $font-size * 1.4;
+      width: 90px;
+      top: 0;
+      cursor: pointer;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        color: $font-color;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 5px;
+      }
+
+      .to_list:hover{
+      background: #c9d6dc;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+    }
+  }
+
   .publicidad{
     position: relative;
     width: 100%;
@@ -557,12 +617,75 @@ header.inicial{
 
 }
 
-.contenidos{
+.left_stuff{
   margin-top: 25px;
   position: relative;
-  width: 731px;
+  width: 733px;
   float: left;
   margin-right: 15px;
+  min-height: 130px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+  min-height: 30px;
+  overflow: hidden;
+  padding: 20px 0;
+  font-size: $font-size * 1.4;
+  color: $gray-color;
+  line-height: $font-size * 1.8;
+
+  h3{
+    position: relative;
+    width: 100%;
+    float: none;
+    clear: both;
+    color: $font-color;
+  }
+
+  p.to_do{
+    position: relative;
+    float: left;
+    width: 550px;
+    color: $strong-color;
+    margin-top: 0;
+  }
+
+  .to_act{
+      display: block;
+      float: right;
+      background: $contrast-color;
+      color: $white-color;
+      font-size: $font-size * 1.6;
+      border: none;
+      height: 36px;
+      top: 0px;
+      line-height: 36px;
+      text-decoration: none;
+      padding: 0 12px;
+      @include border-radius(3px);
+      text-shadow: 1px 1px 0px #ad0a4e;
+      border-bottom: 2px solid #b0074d;
+      margin-top: 0px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+    }
+
+    .to_act:hover{
+      background: $strong-color;
+      border-bottom: 2px solid #0b79af;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+    }
+
+}
+
+.contenidos{
+  position: relative;
+  width: 731px;
   min-height: 130px;
     border: 1px solid #dfecf2;
     background: $white-color;
@@ -571,6 +694,7 @@ header{
   position: relative;
 height: 55px;
 width: 100%;
+z-index: 600;
 
   ul.tabs{
     position: relative;
@@ -846,6 +970,7 @@ width: 100%;
     min-height: 150px;
     overflow: hidden;
     margin: 20px 0;
+    border-bottom: 1px solid $border-color;
 
     li{
       display: block;
@@ -880,7 +1005,8 @@ width: 100%;
       div.conten_data{
         position: relative;
         float: left;
-        width: 442px;
+        width: 422px;
+        padding-left: 20px;
         height: 48px;
         margin-top: 21px;
 
@@ -950,7 +1076,7 @@ width: 100%;
       p.simple{
         position: relative;
         float: left;
-        line-height: 90px;
+        line-height: 70px;
         width: 80px;
         margin-left: 10px;
         text-align: center;
@@ -977,7 +1103,7 @@ width: 100%;
         color: $font-color;
         text-align: center;
         text-decoration: none;
-        margin-top: 35px;
+        margin-top: 24px;
         margin-left: 10px;
       }
 
@@ -989,6 +1115,80 @@ width: 100%;
 
     }
 
+  }
+
+  .paginacion{
+    position: relative;
+    width: 100%;
+    line-height: 24px;
+    line-height: 24px;
+    padding: 20px 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: $font-size * 1.4;
+
+    li{
+      display: inline-block;
+      position: relative;
+      margin: 0px 4px;
+
+      a{
+        text-decoration: none;
+        display: block;
+        color: $gray-color;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 5px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+      a.activo{
+        color: $white-color;
+        background: $strong-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+      a:hover{
+        color: $white-color;
+        background: $gray-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+
+    }
+
+    li:first-child{
+      a{
+        color: $font-color;
+        margin-right: 15px;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+      a:hover{
+        color: $strong-color;
+        background: none;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+    }
+
+    li:last-child{
+      a{
+        color: $font-color;
+        margin-left: 15px;
+      }
+
+      a:hover{
+        color: $strong-color;
+        background: none;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+    }
   }
 
 }

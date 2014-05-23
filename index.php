@@ -17,6 +17,11 @@
 		<script type="text/javascript" src="assets/js/funciones.js"></script>	
 	</head>
 	<body>
+		<div id="audiac">
+			<audio id="quintet">
+				<source src="assets/sounds/click.mp3"></source>
+			</audio>
+		</div>
 		<header class="inicial">
 			<nav class="central">
 				<ul>
@@ -62,6 +67,7 @@
 			</nav>
 		</section>
 		<div class="central">
+			<div class="left_stuff">
 			<section class="contenidos">
 				<header>
 					<ul class="tabs">
@@ -242,8 +248,30 @@
 							<a href="" class="buto">Details</a>
 						</li>
 					</ul>
+					<ul class="paginacion">
+						<li><a href="#">< Vorigen</a></li>
+						<li><a href="#" class="activo">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a href="#">7</a></li>
+						<li><a href="#">8</a></li>
+						<li><a href="#">9</a></li>
+						<li><a href="#">10</a></li>
+						<li><a href="#">Volgende ></a></li>
+					</ul>
 				</div>
 			</section>
+			<aside class="footer">
+				<h3>Openingstidjen & koopzondagen Albert Heijn</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec imperdiet nisl, vel ultricies odio. Phasellus sollicitudin convallis aliquam. Mauris a quam libero. Sed facilisis tincidunt pretium. Nam vel massa a nibh faucibus porttitor sed a tellus. Ut aliquam quam vel enim consequat, commodo venenatis purus molestie. Nunc vitae leo eget leo lacinia malesuada sed eget risus. Morbi lacinia sagittis magna vitae laoreet. Etiam eleifend condimentum ligula at lobortis.</p>
+				<h3>Meer Supermarkten in nederland</h3>
+				<p class="to_do">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec imperdiet nisl, vel ultricies odio. Phasellus sollicitudin convallis aliquam. Mauris a quam libero. Sed facilisis tincidunt pretium.</p>
+				<a href="#" class="to_act">Alle supermarkten</a>
+			</aside>
+			</div>
 			<section class="sidebar">
 				<article class="present">
 					<span class="fa fa-spotify logocent"></span>
@@ -260,6 +288,12 @@
 						<li><a href="#"><span class="fa fa-spotify"></span>Bonus Aanbiedingen</a></li>
 						<li><a href="#"><span class="fa fa-spotify"></span>Bonukaart Aanvragen</a></li>
 					</ul>
+				</article>
+				<article class="fold">
+					<span class="fa fa-file folda"></span>
+					<h4>Albert Heijn Folder</h4>
+					<p>Geldig van 04-05 t/m 11-05</p>
+					<a href="#" class="to_list">Bekijk</a>
 				</article>
 				<article class="publicidad">
 					
