@@ -1461,3 +1461,25 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
+
+@media (max-width: 1050px) {
+  /* line 1203, ../compass/sass/style.scss */
+  html, body {
+    width: 100%;
+    min-width: 1000px;
+  }
+
+  /* line 1208, ../compass/sass/style.scss */
+  .central {
+    width: 1000px;
+  }
+
+  /* line 1212, ../compass/sass/style.scss */
+  .sidebar {
+    width: 252px;
+  }
+  /* line 1215, ../compass/sass/style.scss */
+  .sidebar article {
+    width: 250px;
+  }
+}

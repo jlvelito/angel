@@ -1198,6 +1198,26 @@ z-index: 600;
 
 
 
+@media (max-width: 1050px) {
+
+  html,body{
+    width: 100%;
+    min-width: 1000px;
+  }
+
+  .central{
+    width: 1000px;
+  }
+
+  .sidebar{
+    width: 252px;
+
+    article{
+      width:250px;
+    }
+  }
+
+}
 
 
 
