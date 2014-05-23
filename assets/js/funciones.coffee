@@ -22,3 +22,4 @@ $ ->
 	$('.tabs li').click ->
 		$('.tabs li').removeClass 'activo'
 		$(this).addClass 'activo'
+		alert 'nuevo'

@@ -609,11 +609,27 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   transition-duration: 0.4s;
 }
 /* line 511, ../compass/sass/style.scss */
+.sidebar .publicidad {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  line-height: 250px;
+  text-align: center;
+  color: white;
+  background: #1ca8ed;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+/* line 523, ../compass/sass/style.scss */
+.sidebar .publicidad:before {
+  content: "Publicidad";
+}
+/* line 528, ../compass/sass/style.scss */
 .sidebar .present {
   text-align: center;
   padding-bottom: 15px;
 }
-/* line 515, ../compass/sass/style.scss */
+/* line 532, ../compass/sass/style.scss */
 .sidebar .present .logocent {
   display: block;
   position: relative;
@@ -623,12 +639,12 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   color: #1ca8ed;
   padding-top: 15px;
 }
-/* line 525, ../compass/sass/style.scss */
+/* line 542, ../compass/sass/style.scss */
 .sidebar .present h4 {
   font-size: 14px;
   font-weight: 700;
 }
-/* line 530, ../compass/sass/style.scss */
+/* line 547, ../compass/sass/style.scss */
 .sidebar .present .thin {
   font-weight: 200;
   width: 92%;
@@ -638,7 +654,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   margin-bottom: 7px;
 }
 
-/* line 543, ../compass/sass/style.scss */
+/* line 560, ../compass/sass/style.scss */
 .contenidos {
   margin-top: 25px;
   position: relative;
@@ -649,19 +665,19 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   border: 1px solid #dfecf2;
   background: white;
 }
-/* line 553, ../compass/sass/style.scss */
+/* line 570, ../compass/sass/style.scss */
 .contenidos header {
   position: relative;
   height: 55px;
   width: 100%;
 }
-/* line 558, ../compass/sass/style.scss */
+/* line 575, ../compass/sass/style.scss */
 .contenidos header ul.tabs {
   position: relative;
   width: 100%;
   height: 55px;
 }
-/* line 563, ../compass/sass/style.scss */
+/* line 580, ../compass/sass/style.scss */
 .contenidos header ul.tabs li {
   display: block;
   position: relative;
@@ -684,7 +700,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 579, ../compass/sass/style.scss */
+/* line 596, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper {
   position: relative;
   float: none;
@@ -698,7 +714,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -ms-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 590, ../compass/sass/style.scss */
+/* line 607, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper .fa {
   display: block;
   position: relative;
@@ -718,7 +734,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-/* line 604, ../compass/sass/style.scss */
+/* line 621, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper .fa:hover {
   color: #1ca8ed;
   -webkit-transition-property: all;
@@ -730,7 +746,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 610, ../compass/sass/style.scss */
+/* line 627, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper ul {
   position: relative;
   float: left;
@@ -748,7 +764,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 621, ../compass/sass/style.scss */
+/* line 638, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper ul li {
   display: block;
   position: relative;
@@ -758,7 +774,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   font-size: 14px;
   border-bottom: 1px solid #ececec;
 }
-/* line 630, ../compass/sass/style.scss */
+/* line 647, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper ul li p {
   margin: 0;
   padding: 0;
@@ -779,7 +795,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-/* line 645, ../compass/sass/style.scss */
+/* line 662, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper ul li p:hover {
   background: #4d7a98;
   color: white;
@@ -792,7 +808,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 656, ../compass/sass/style.scss */
+/* line 673, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper ul li:last-child {
   border-bottom: none;
   -webkit-transition-property: all;
@@ -804,7 +820,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 665, ../compass/sass/style.scss */
+/* line 682, ../compass/sass/style.scss */
 .contenidos header ul.tabs li .wrapper ul.activo {
   height: 252px;
   -webkit-transition-property: all;
@@ -816,12 +832,12 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 675, ../compass/sass/style.scss */
+/* line 692, ../compass/sass/style.scss */
 .contenidos header ul.tabs li:last-child {
   width: 231px;
   border: none;
 }
-/* line 680, ../compass/sass/style.scss */
+/* line 697, ../compass/sass/style.scss */
 .contenidos header ul.tabs li:hover {
   background: #e9f0f3;
   -webkit-transition-property: all;
@@ -833,7 +849,7 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 686, ../compass/sass/style.scss */
+/* line 703, ../compass/sass/style.scss */
 .contenidos header ul.tabs li.activo {
   background: white;
   color: #ee0f6c;
@@ -847,7 +863,342 @@ header.inicial .inputs input[type="text"]:-ms-input-placeholder {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 694, ../compass/sass/style.scss */
+/* line 711, ../compass/sass/style.scss */
 .contenidos header ul.tabs li:last-child.activo {
   border: none;
+}
+/* line 720, ../compass/sass/style.scss */
+.contenidos .true_central {
+  position: relative;
+  width: 690px;
+  overflow: hidden;
+  min-height: 200px;
+  margin: 20px auto;
+}
+/* line 728, ../compass/sass/style.scss */
+.contenidos .true_central .publicidad_up {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  color: white;
+  background: #1ca8ed;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+/* line 741, ../compass/sass/style.scss */
+.contenidos .true_central .publicidad_up:before {
+  content: "Publicidad";
+}
+/* line 746, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar {
+  position: relative;
+  width: 100%;
+  min-height: 38px;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  clear: both;
+  float: none;
+  margin: 15px 0;
+}
+/* line 757, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar p.checkar {
+  position: relative;
+  float: left;
+  margin: 0;
+  margin-right: 8px;
+  border-radius: 3px;
+  border: 1px solid #c0d4dd;
+  background: #e3ebef;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  text-indent: 14px;
+  width: 100px;
+  top: 0;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 775, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar p.checkar span {
+  display: inline-block;
+  border: 2px solid #c0d4dd;
+  background: white;
+  width: 16px;
+  height: 16px;
+  margin: 8px 12px;
+  line-height: 16px;
+  text-align: center;
+  text-indent: 0;
+  padding: 0;
+  color: white;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 791, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar p.checkar span:before {
+  content: "\f00c";
+}
+/* line 797, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar p.checkar:hover {
+  background: #c9d6dc;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 804, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar p.checkar.activo span {
+  color: #1ca8ed;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 812, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar input[type="text"] {
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #e3ebef;
+  color: #28384b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  height: 34px;
+  line-height: 34px;
+  text-indent: 8px;
+  margin-right: 7px;
+  font-size: 14px;
+}
+/* line 35, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar input[type="text"]::-webkit-input-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
+}
+/* line 36, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar input[type="text"]:-moz-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
+}
+/* line 37, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar input[type="text"]::-moz-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
+}
+/* line 38, ../compass/sass/style.scss */
+.contenidos .true_central .filtrar input[type="text"]:-ms-input-placeholder {
+  color: #b8c9d2;
+  font-size: 14px;
+}
+/* line 835, ../compass/sass/style.scss */
+.contenidos .true_central .map_ {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+/* line 843, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+/* line 850, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li {
+  display: block;
+  position: relative;
+  border-top: 1px solid #ececec;
+  min-height: 90px;
+  overflow: hidden;
+}
+/* line 857, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li p.firstdata {
+  position: relative;
+  float: left;
+  width: 40px;
+  font-size: 12px;
+  margin: 26px 8px 22px 0;
+}
+/* line 864, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li p.firstdata strong {
+  display: block;
+  position: relative;
+  width: 36px;
+  min-height: 36px;
+  text-align: center;
+  line-height: 36px;
+  margin: 0 auto 5px;
+  background: #ee0f6c;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+/* line 880, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li div.conten_data {
+  position: relative;
+  float: left;
+  width: 442px;
+  height: 48px;
+  margin-top: 21px;
+}
+/* line 887, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li div.conten_data p {
+  position: relative;
+  width: 100%;
+  text-indent: 15px;
+  line-height: 24px;
+  height: 24px;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: #4d7a98;
+}
+/* line 898, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li div.conten_data p .normal_ {
+  color: #1ca8ed;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* line 905, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li div.conten_data p .direction {
+  color: #28384b;
+  font-size: 14px;
+}
+/* line 910, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li div.conten_data p .open {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  margin-right: 10px;
+  background: #4eca85;
+  color: white;
+  text-indent: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 925, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li div.conten_data p .closed {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  margin-right: 10px;
+  background: #bfced6;
+  color: white;
+  text-indent: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 940, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li div.conten_data p .open:hover, .contenidos .true_central .tabular_data li div.conten_data p .closed:hover {
+  color: white;
+  background: #4d7a98;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 950, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li p.simple {
+  position: relative;
+  float: left;
+  line-height: 90px;
+  width: 80px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 960, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li .buto {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0;
+  margin-right: 8px;
+  border-radius: 3px;
+  border: 1px solid #c0d4dd;
+  background: #e3ebef;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  width: 90px;
+  top: 0;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  color: #28384b;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+/* line 984, ../compass/sass/style.scss */
+.contenidos .true_central .tabular_data li .buto:hover {
+  background: #c9d6dc;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }

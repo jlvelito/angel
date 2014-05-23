@@ -508,6 +508,23 @@ header.inicial{
 
   }
 
+  .publicidad{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    color: $white-color;
+    background: $strong-color;
+    font-size: $font-size * 2.2;
+    text-transform: uppercase;
+  }
+
+  .publicidad:before{
+
+    content: "Publicidad";
+  }
+
   .present{
     text-align: center;
     padding-bottom: 15px;
@@ -700,7 +717,281 @@ width: 100%;
 }
   
 
+.true_central{
+  position: relative;
+  width: 690px;
+  overflow: hidden;
+  min-height: 200px;
+  margin: 20px auto;
 
+
+  .publicidad_up{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    color: $white-color;
+    background: $strong-color;
+    font-size: $font-size * 2.2;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  .publicidad_up:before{
+
+    content: "Publicidad";
+  }
+
+  .filtrar{
+    position: relative;
+    width: 100%;
+    min-height: 38px;
+    overflow: hidden;
+    left: 0; 
+    top: 0;
+    clear: both;
+    float: none;
+    margin: 15px 0;
+
+    p.checkar{
+      position: relative;
+      float: left;
+      margin: 0;
+      margin-right: 8px;
+      border-radius: 3px;
+      border: 1px solid #c0d4dd;
+      background: $button-color;
+      height: 36px;
+      line-height: 36px;
+      font-size: $font-size * 1.4;
+      text-indent: 14px;
+      width: 100px;
+      top: 0;
+      cursor: pointer;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+      span{
+        display: inline-block;
+        border: 2px solid #c0d4dd;
+        background: $white-color;
+        width: 16px;
+        height: 16px;
+        margin: 8px 12px;;
+        line-height: 16px;
+        text-align: center;
+        text-indent: 0;
+        padding: 0;
+      color: $white-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+      }
+
+      span:before{
+        content: "\f00c"
+      }
+
+    }
+
+    p.checkar:hover{
+      background: #c9d6dc;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+    }
+
+    p.checkar.activo{
+      span{
+        color: $strong-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+
+      }
+    }
+
+    input[type="text"]{
+      display: block;
+      float: left;
+      padding: 0;
+      margin: 0;
+      border: 2px solid $button-color;
+      color: $font-color;
+      @include border-radius(3px);
+      height: 34px;
+      line-height: 34px;
+      text-indent: 8px;
+      margin-right: 7px;
+      font-size: $font-size * 1.4;
+
+      @include placeholder{
+        color: #b8c9d2;
+        font-size: $font-size * 1.4;
+      }
+
+    }
+
+  }
+
+  .map_{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+
+  .tabular_data{
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    overflow: hidden;
+    margin: 20px 0;
+
+    li{
+      display: block;
+      position: relative;
+      border-top: 1px solid $border-color;
+      min-height: 90px;
+      overflow: hidden;
+
+      p.firstdata{
+        position: relative;
+        float: left;
+        width: 40px;
+        font-size: $font-size * 1.2;
+        margin: 26px 8px 22px 0;
+
+        strong{
+          display: block;
+          position: relative;
+          width: 36px;
+          min-height: 36px;
+          text-align: center;
+          line-height: 36px;
+          margin: 0 auto 5px;
+          background: $contrast-color;
+          color: $white-color;
+          font-size: $font-size * 2.2;
+          text-transform: uppercase;
+        }
+
+      }
+
+      div.conten_data{
+        position: relative;
+        float: left;
+        width: 442px;
+        height: 48px;
+        margin-top: 21px;
+
+        p{
+          position: relative;
+          width: 100%;
+          text-indent: 15px;
+          line-height: 24px;
+          height: 24px;
+          font-size: $font-size * 1.2;
+          margin: 0;
+          padding: 0;
+          color: $gray-color;
+
+          .normal_{
+            color: $strong-color;
+            font-weight: 700;
+            text-decoration: none;
+          font-size: $font-size * 1.4;
+          }
+
+          .direction{
+            color: $font-color;
+            font-size: $font-size * 1.4;
+          }
+
+          .open{
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+            padding: 0 10px;
+            margin-right: 10px;
+            background: $active-color;
+            color: $white-color;
+            text-indent: 0;
+            text-transform: uppercase;
+            text-decoration: none;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+          }
+
+          .closed{
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+            padding: 0 10px;
+            margin-right: 10px;
+            background: $inactive-color;
+            color: $white-color;
+            text-indent: 0;
+            text-transform: uppercase;
+            text-decoration: none;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+          }
+
+          .open:hover , .closed:hover{
+            color: $white-color;
+            background: $gray-color;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+          }
+
+        }
+      }
+
+      p.simple{
+        position: relative;
+        float: left;
+        line-height: 90px;
+        width: 80px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: $font-size * 1.2;
+      }
+
+      .buto{
+        display: block;
+        position: relative;
+        float: left;
+        margin: 0;
+      margin-right: 8px;
+      border-radius: 3px;
+      border: 1px solid #c0d4dd;
+      background: $button-color;
+      height: 36px;
+      line-height: 36px;
+      font-size: $font-size * 1.4;
+      width: 90px;
+      top: 0;
+      cursor: pointer;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+        color: $font-color;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 35px;
+        margin-left: 10px;
+      }
+
+      .buto:hover{
+      background: #c9d6dc;
+      @include transition-property($default-transition-property);
+        @include transition-duration($default-transition-duration);
+    }
+
+    }
+
+  }
+
+}
 
 
 }

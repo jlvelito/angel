@@ -85,6 +85,164 @@
 						</li>
 					</ul>
 				</header>
+				<div class="true_central">
+					<article class="publicidad_up">
+						
+					</article>
+					<div class="map_">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78730.49298682377!2d4.4904063!3d51.92797225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b7605f54c47d%3A0x5229bbac955e4b85!2zUsOzdGVyZGFt!5e0!3m2!1ses!2s!4v1400812248717" width="690" height="60" frameborder="0" style="border:0"></iframe>
+					</div>
+					<nav class="filtrar">
+						<p class="checkar"> Filters <span class="fa">&nbsp;</span></p>
+						<input type="text" class="fa" placeholder="&#xf02c; Zoek straat" />
+					</nav>
+					<ul class="tabular_data">
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="open">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="open">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="closed">Closed</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="open">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="closed">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="open">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="open">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="open">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+						<li>
+							<p class="firstdata">
+								<strong>a</strong>
+								<span>1,2 km</span>
+							</p>
+							<div class="conten_data">
+								<p class="personal">
+									<a href="#" class="normal_">Albert Heijn</a> - <strong class="direction">Nieuwezijds Voorburgwal 226</strong> Amsterdam
+								</p>
+								<p class="schedule">
+									<a href="#" class="open">Open</a> vandaag 09:00 - 17:00
+								</p>
+							</div>
+							<p class="simple">Telfort.nl</p>
+							<a href="" class="buto">Details</a>
+						</li>
+					</ul>
+				</div>
 			</section>
 			<section class="sidebar">
 				<article class="present">
@@ -102,6 +260,9 @@
 						<li><a href="#"><span class="fa fa-spotify"></span>Bonus Aanbiedingen</a></li>
 						<li><a href="#"><span class="fa fa-spotify"></span>Bonukaart Aanvragen</a></li>
 					</ul>
+				</article>
+				<article class="publicidad">
+					
 				</article>
 			</section>
 		</div>
