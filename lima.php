@@ -38,10 +38,12 @@
 		<nav class="central">
 			<ul class="breadcrumb">
 				<li><a href="index.php">Inicio</a></li>
+				<li>></li>
+				<li><a href="lima.php">Lima</a></li>
 			</ul>
 		</nav>
 		<section class="central filters">
-			<h2>Ubica tu Congresista<span></span></h2>
+			<h2>Congresistas por Lima<span></span></h2>
 			<nav class="right_elements">
 				<div class="wrapper">
 					<ul class="select">
@@ -63,7 +65,7 @@
 		<div class="central">
 			<div class="left_stuff">
 			<section class="contenidos">
-				<!--<header>
+				<header>
 					<ul class="tabs">
 						<li class="activo" rel="categoria1"><span class="fa fa-map-marker" id="tab1"></span> Lima</li>
 						<li rel="categoria2"><span class="fa fa-map-marker" id="tab2"></span> Aledaño 1</li>
@@ -83,13 +85,13 @@
 							</div>
 						</li>
 					</ul>
-				</header>-->
+				</header>
 				<div class="true_central">
 					<!--<article class="publicidad_up">
 						
 					</article>-->
-					<div class="map2_">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31214.62497624788!2d-77.0451853!3d-12.0553442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8db1e539667%3A0x4f45538aa07bda29!2zTGltYSwgUGVyw7o!5e0!3m2!1ses!2s!4v1422675432356" width="690" height="700" frameborder="0" style="border:0"></iframe>
+					<div class="map_">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31214.62497624788!2d-77.0451853!3d-12.0553442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8db1e539667%3A0x4f45538aa07bda29!2zTGltYSwgUGVyw7o!5e0!3m2!1ses!2s!4v1422675432356" width="690" height="300" frameborder="0" style="border:0"></iframe>
 					</div>
 					<nav class="filtrar">
 						<!--<p class="checkar"> Filters <span class="fa">&nbsp;</span></p>-->
@@ -99,12 +101,13 @@
 						<li>
 							<p class="firstdata">
 								<strong>a</strong>
+								<span>Lima</span>
 							</p>
 							<div class="conten_data">
 								<p class="personal">
-									<a href="#" class="normal_">Lima</a> 
+									<a href="#" class="normal_">Carlos Bruce Montes de Oca</a> 
 								</p>
-								<p><strong class="direction">Región 1</strong></p>
+								<p><strong class="direction">Congresista 1</strong></p>
 							</div>
 							<p class="simple"></p>
 							<a href="" class="buto">Detalles</a>
@@ -112,12 +115,13 @@
 						<li>
 							<p class="firstdata">
 								<strong>b</strong>
+								<span>Lima</span>
 							</p>
 							<div class="conten_data">
 								<p class="personal">
-									<a href="#" class="normal_">Ancash</a> 
+									<a href="#" class="normal_">Carlos Bruce Montes de Oca</a> 
 								</p>
-								<p><strong class="direction">Región 2</strong></p>
+								<p><strong class="direction">Congresista 2</strong></p>
 							</div>
 							<p class="simple"></p>
 							<a href="" class="buto">Detalles</a>
@@ -125,12 +129,13 @@
 						<li>
 							<p class="firstdata">
 								<strong>c</strong>
+								<span>Lima</span>
 							</p>
 							<div class="conten_data">
 								<p class="personal">
-									<a href="#" class="normal_">Amazonas</a> 
+									<a href="#" class="normal_">Carlos Bruce Montes de Oca</a> 
 								</p>
-								<p><strong class="direction">Región 3</strong></p>
+								<p><strong class="direction">Congresista 3</strong></p>
 							</div>
 							<p class="simple"></p>
 							<a href="" class="buto">Detalles</a>
@@ -138,12 +143,13 @@
 						<li>
 							<p class="firstdata">
 								<strong>d</strong>
+								<span>Lima</span>
 							</p>
 							<div class="conten_data">
 								<p class="personal">
-									<a href="#" class="normal_">Arequipa</a> 
+									<a href="#" class="normal_">Carlos Bruce Montes de Oca</a> 
 								</p>
-								<p><strong class="direction">Región 4</strong></p>
+								<p><strong class="direction">Congresista 4</strong></p>
 							</div>
 							<p class="simple"></p>
 							<a href="" class="buto">Detalles</a>
@@ -179,7 +185,8 @@
 			<section class="sidebar">
 				<article class="present">
 					<!--<span class="fa fa-spotify logocent"></span>-->
-					<img src="assets/images/peru.png" alt="" class="bruce" />
+					<img src="assets/images/escudo.png" alt="" class="bruce" />
+					<h4>Región Lima</h4>
 					
 				</article>
 				<!--<article>

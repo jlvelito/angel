@@ -48,10 +48,14 @@
       $(this).parent().parent().removeClass('activo');
       return $(this).parent().parent().find('.princ').text(nuevocont);
     });
-    return $('.tabs li').click(function() {
+    
+    $('.tabs li').click(function() {
       $('.tabs li').removeClass('activo');
+      $(this).addClass('activo');
+      var aprece = $(this).attr('rel');
+      $('.tabular_data').css('display','none');
+      $('#'+aprece+'').css('display','block');
       audio.play();
-      return $(this).addClass('activo');
     });
 
 
