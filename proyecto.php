@@ -17,6 +17,14 @@
 		<script type="text/javascript" src="assets/js/funciones.js"></script>	
 	</head>
 	<body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=266813750109071&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<div id="audiac">
 			<audio id="quintet">
 				<source src="assets/sounds/click.mp3"></source>
@@ -47,11 +55,11 @@
 			</ul>
 		</nav>
 		<section class="central filters">
-			<h2>Carlos Bruce <span></span></h2>
+			<h2>Proyecto de ley 1 <span></span></h2>
 			<nav class="right_elements">
 				<div class="wrapper">
 					<ul class="select">
-						<li><p class="princ">EOtros proyectos</p></li>
+						<li><p class="princ">Otros proyectos</p></li>
 						<li><p>Congresista Lima 2</p></li>
 						<li><p>Congresista Lima 3</p></li>
 						<li><p>Congresista Lima 4</p></li>
@@ -69,335 +77,43 @@
 		<div class="central">
 			<div class="left_stuff">
 			<section class="contenidos">
+				
+				<div class="true_central">
+					<!--<article class="publicidad_up">
+						
+					</article>
+					<div class="map_">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31214.62497624788!2d-77.0451853!3d-12.0553442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8db1e539667%3A0x4f45538aa07bda29!2zTGltYSwgUGVyw7o!5e0!3m2!1ses!2s!4v1422675432356" width="690" height="300" frameborder="0" style="border:0"></iframe>
+					</div>-->
+					<nav class="filtrar">
+						<!--<p class="checkar"> Filters <span class="fa">&nbsp;</span></p>
+						<input type="text" class="fa" placeholder="&#xf02c; Buscar" />-->
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum tincidunt venenatis. Aliquam hendrerit, sapien vel interdum bibendum, nulla elit porta orci, sed venenatis nisl ipsum at magna. Quisque luctus auctor ipsum vel scelerisque. Nam ex sapien, ornare vel augue eu, hendrerit lobortis lorem. Donec mollis diam tortor, quis pharetra quam semper ac. Etiam euismod urna euismod, venenatis odio a, condimentum eros. Vestibulum blandit, velit nec sollicitudin posuere, lorem neque suscipit velit, vitae consequat dui ante at nisl.</p>
+						<p>Praesent vitae mauris sit amet dolor porttitor suscipit at eu nisl. Fusce aliquam enim id lectus rutrum ultrices. Maecenas ipsum justo, molestie non augue ac, fermentum auctor tellus. Maecenas mattis libero odio, eu convallis magna suscipit eget. Suspendisse ut nisi et est volutpat feugiat. Suspendisse nec leo vestibulum, mattis turpis nec, fringilla massa. Donec molestie mauris et turpis ultricies porttitor. Suspendisse potenti.</p>
+						<p>Donec sit amet eleifend ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc euismod pretium tellus, mattis ultricies lorem placerat a. Donec ut ultricies metus. Vivamus vel risus a tortor pulvinar facilisis. Nam nec suscipit augue, eget tempus diam. Integer viverra orci viverra metus efficitur aliquet.</p>
+					</nav>
+					
+				</div>
 				<header>
 					<ul class="tabs">
-						<li class="activo" rel="categoria1"><span class="fa fa-bookmark" id="tab1"></span> Categoría 1</li>
-						<li rel="categoria2"><span class="fa fa-bookmark" id="tab2"></span> Categoría 2</li>
-						<li rel="categoria3"><span class="fa fa-bookmark" id="tab3"></span> Categoría 3</li>
-						<li rel="categoria4"><span class="fa fa-bookmark" id="tab4"></span> Categoría 4</li>
-						<li>
+						
+						<li rel="categoria1">
 							<div class="wrapper">
 								<ul class="select">
-									<li><p class="princ">Escoge otra categoría</p></li>
-									<li><p>Categoría 5</p></li>
-									<li><p>Categoría 6</p></li>
-									<li><p>Categoría 7</p></li>
-									<li><p>Categoría 8</p></li>
-									<li><p>Categoría 9</p></li>
+									<li><p class="princ">Califica esta ley</p></li>
+									<li><p>1</p></li>
+									<li><p>2</p></li>
+									<li><p>3</p></li>
+									<li><p>4</p></li>
+									<li><p>5</p></li>
 								</ul>
 								<span class="fa fa-caret-down launcher1" ></span>
 							</div>
 						</li>
 					</ul>
 				</header>
-				<div class="true_central">
-					<!--<article class="publicidad_up">
-						
-					</article>-->
-					<div class="map_">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31214.62497624788!2d-77.0451853!3d-12.0553442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8db1e539667%3A0x4f45538aa07bda29!2zTGltYSwgUGVyw7o!5e0!3m2!1ses!2s!4v1422675432356" width="690" height="300" frameborder="0" style="border:0"></iframe>
-					</div>
-					<nav class="filtrar">
-						<!--<p class="checkar"> Filters <span class="fa">&nbsp;</span></p>-->
-						<input type="text" class="fa" placeholder="&#xf02c; Buscar" />
-					</nav>
-					<ul class="tabular_data" id="categoria1">
-						<li>
-							<p class="firstdata">
-								<strong>a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong>a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong>a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong>a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						
-						
-					</ul>
-					<ul class="tabular_data" id="categoria2">
-						<li>
-							<p class="firstdata">
-								<strong class="azure">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong class="azure">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong class="azure">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong class="azure">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						
-					</ul>
-					<ul class="tabular_data" id="categoria3">
-						<li>
-							<p class="firstdata">
-								<strong class="verede">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li><li>
-							<p class="firstdata">
-								<strong class="verede">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li><li>
-							<p class="firstdata">
-								<strong class="verede">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li><li>
-							<p class="firstdata">
-								<strong class="verede">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li><li>
-							<p class="firstdata">
-								<strong class="verede">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						
-						
-					</ul>
-					<ul class="tabular_data" id="categoria4">
-						<li>
-							<p class="firstdata">
-								<strong class="oranger">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong class="oranger">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong class="oranger">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						<li>
-							<p class="firstdata">
-								<strong class="oranger">a</strong>
-								<span>Lima</span>
-							</p>
-							<div class="conten_data">
-								<p class="personal">
-									<a href="#" class="normal_">Proyecto de ley 1</a> - <strong class="direction">LEY QUE DEROGA LA LEY 30288</strong> 
-								</p>
-								<p class="schedule">
-									<a href="#" class="open">04088/2014-CR</a> Concertación Parlamentaria
-								</p>
-							</div>
-							<p class="simple">Ley Nº: 30300</p>
-							<a href="" class="buto">Detalles</a>
-						</li>
-						
-						
-					</ul>
-					<ul class="paginacion">
-						<li><a href="#">< Anterior</a></li>
-						<li><a href="#" class="activo">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">6</a></li>
-						<li><a href="#">7</a></li>
-						<li><a href="#">8</a></li>
-						<li><a href="#">9</a></li>
-						<li><a href="#">10</a></li>
-						<li><a href="#">Siguiente ></a></li>
-					</ul>
+				<div class="separator">
+				<div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-numposts="10" data-width="703" data-colorscheme="light"></div>
 				</div>
 			</section>
 			<aside class="footer">

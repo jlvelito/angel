@@ -68,6 +68,14 @@ ul{
   display: none;
 }
 
+.separator{
+    position: relative;
+    clear: both;
+    width: 703px;
+    margin: 20px auto;
+    padding-top: 30px;
+    border-top: 1px solid #f9f9f9;
+  }
 
 header.inicial{
 
@@ -1011,6 +1019,8 @@ z-index: 600;
     content: "Publicidad";
   }
 
+
+
   .filtrar{
     position: relative;
     width: 100%;
@@ -1021,6 +1031,12 @@ z-index: 600;
     clear: both;
     float: none;
     margin: 15px 0;
+
+    p{
+      font-size: 14px;
+      line-height: 1.3em;
+      text-align: justify;
+    }
 
     p.checkar{
       position: relative;
